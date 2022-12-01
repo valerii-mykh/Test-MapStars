@@ -49,6 +49,21 @@ img {
   }
 }
 
+.title {
+  font-family: "TT Firs Neue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62px;
+  text-transform: uppercase;
+  background: linear-gradient(103.85deg, #f33f5e 0%, #fa8550 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+  display: table;
+  margin: 20px auto;
+}
+
 .technology {
   padding-top: 60px;
   padding-bottom: 60px;
