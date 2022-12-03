@@ -6,24 +6,24 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
+}
+.technology-container {
+}
+.technology-list {
+}
+.technology-list__item img {
 }
 
-.pic-list {
-}
-.pic-list__item {
-}
-
-.technology-content {
-}
 .technology-content__title {
+  text-align: start;
 }
-
+.technology-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
 .technology-content__bottom-text {
 }
 .bottom-text {
