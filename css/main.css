@@ -167,9 +167,28 @@ img {
   transform: translateX(-50%);
 }
 
-.technology-content__title {
-  text-align: start;
-  margin-bottom: 16px;
+.market {
+  position: relative;
+}
+
+.bcgs {
+  position: absolute;
+  left: -50%;
+  top: 0;
+  transform: translate(50%, -50%);
+  z-index: -1;
+}
+
+.man {
+  position: relative;
+}
+
+.bcgl {
+  position: absolute;
+  right: -50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  z-index: -1;
 }
 
 .technology-content {
@@ -181,7 +200,13 @@ img {
   width: 560px;
 }
 
+.technology-content__title {
+  text-align: start;
+  margin-bottom: 16px;
+}
+
 .technology-content__text {
+  font-family: "TT Firs Neue";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
@@ -192,7 +217,7 @@ img {
 .technology-content__text-bottom {
   font-family: "TT Firs Neue";
   font-style: normal;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.5;
   color: #111a45;
 }/*# sourceMappingURL=main.css.map */
