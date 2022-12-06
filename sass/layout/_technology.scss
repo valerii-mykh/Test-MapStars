@@ -29,7 +29,15 @@
     width: unset;
   }
 }
-
+.shopping {
+  position: relative;
+}
+.girl {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
 .technology-content__title {
   text-align: start;
   margin-bottom: 16px;
