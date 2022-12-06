@@ -10,49 +10,50 @@
     display: flex;
     flex-wrap: wrap;
   }
-}
-.technology-list-img {
-  display: flex;
-  flex-wrap: wrap;
-}
-.technology-list {
-  display: flex;
-  flex-direction: column;
-}
-.technology-list__item img {
-  width: unset;
+  &-list-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 22px;
+    margin-right: 150px;
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    &:first-child {
+      text-align: -webkit-right;
+    }
+  }
+  &-list__item img {
+    width: unset;
+  }
 }
 
 .technology-content__title {
   text-align: start;
+  margin-bottom: 16px;
 }
 .technology-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 16px;
-  width: 50%;
+  padding-top: 50px;
+  width: 560px;
 }
-.technology-content__bottom-text {
-}
-.bottom-text {
-}
-.technology-content__text:first-of-type {
+
+.technology-content__text {
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
-
+  line-height: 1.5;
+  margin-bottom: 16px;
   color: #111a45;
 }
-.technology-content__text:first-of-type {
+.technology-content__text-bottom {
   font-family: "TT Firs Neue";
   font-style: normal;
-
   font-size: 20px;
-  line-height: 150%;
-
-  /* #32302F */
-
+  line-height: 1.5;
   color: #111a45;
 }

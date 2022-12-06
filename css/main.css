@@ -99,16 +99,16 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 480px;
+  max-width: 767px;
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 1199px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1480px) {
   .container {
-    max-width: 1200px;
+    max-width: 1480px;
   }
 }
 
@@ -137,23 +137,28 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-
 .technology-list-img {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+  margin-right: 150px;
 }
-
 .technology-list {
   display: flex;
   flex-direction: column;
+  gap: 22px;
 }
-
+.technology-list:first-child {
+  text-align: -webkit-right;
+}
 .technology-list__item img {
   width: unset;
 }
 
 .technology-content__title {
   text-align: start;
+  margin-bottom: 16px;
 }
 
 .technology-content {
@@ -161,22 +166,22 @@ img {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 16px;
-  width: 50%;
+  padding-top: 50px;
+  width: 560px;
 }
 
-.technology-content__text:first-of-type {
+.technology-content__text {
   font-weight: 500;
   font-size: 20px;
-  line-height: 150%;
+  line-height: 1.5;
+  margin-bottom: 16px;
   color: #111a45;
 }
 
-.technology-content__text:first-of-type {
+.technology-content__text-bottom {
   font-family: "TT Firs Neue";
   font-style: normal;
   font-size: 20px;
-  line-height: 150%;
-  /* #32302F */
+  line-height: 1.5;
   color: #111a45;
 }/*# sourceMappingURL=main.css.map */
