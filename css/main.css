@@ -142,22 +142,35 @@ img {
   flex-wrap: wrap;
   align-items: center;
   gap: 22px;
-  margin-right: 150px;
+}
+@media screen and (min-width: 1200px) {
+  .technology-list-img {
+    margin-right: 150px;
+  }
 }
 .technology-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 22px;
+}
+@media screen and (min-width: 1200px) {
+  .technology-list {
+    flex-direction: column;
+  }
 }
 .technology-list:first-child {
   text-align: -webkit-right;
 }
-.technology-list__item img {
-  width: unset;
-}
 
 .shopping {
   position: relative;
+  align-items: end;
+  display: flex;
+}
+@media screen and (min-width: 1200px) {
+  .shopping {
+    display: block;
+  }
 }
 
 .girl {
@@ -165,6 +178,7 @@ img {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
+  width: 80%;
 }
 
 .market {
