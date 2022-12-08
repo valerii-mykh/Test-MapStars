@@ -143,12 +143,19 @@ img {
 
 .advantages-content {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .advantages__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 27px;
+  justify-content: center;
+  row-gap: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .advantages__list {
+    justify-content: space-between;
+  }
 }
 
 .advantages__item {
