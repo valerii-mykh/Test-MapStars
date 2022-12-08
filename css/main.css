@@ -170,6 +170,112 @@ img {
   margin: 12px 0;
 }
 
+.how-work-content {
+  text-align: center;
+  background-color: #fff7f8;
+  border-radius: 30px 30px 0 0;
+}
+@media screen and (min-width: 1024px) {
+  .how-work-content {
+    border-radius: 50px 50px 0 0;
+  }
+}
+
+.how-work-content__bottom-text {
+  font-family: "TT Firs Neue";
+  font-size: 22px;
+  line-height: 1.27;
+}
+
+.how-work__item {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px) {
+  .how-work__item {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.big__img {
+  max-width: 421px;
+  margin: auto;
+}
+@media screen and (min-width: 1024px) {
+  .big__img {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .how-work__item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .how-work__item:nth-child(even) .big__img {
+    margin-right: 0;
+    margin-left: 100px;
+  }
+}
+
+.how-work__item:nth-child(1) {
+  background-color: #fff7f8;
+  padding-bottom: 50px;
+}
+
+.how-work__item:nth-child(2) {
+  position: relative;
+  top: -45px;
+  padding-bottom: 50px;
+  border-radius: 50px 50px 0 0;
+  background-color: #eae9fb;
+}
+
+.how-work__item:nth-child(3) {
+  position: relative;
+  top: -90px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #e5fbf1;
+}
+
+.how-work__content {
+  width: 770px;
+}
+
+.how-work__text-top {
+  font-family: "TT Firs Neue";
+  font-size: 20px;
+  line-height: 26px;
+  color: #f33f5e;
+}
+
+.how-work__title {
+  font-family: "TT Firs Neue";
+  font-size: 28px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .how-work__title {
+    font-size: 36px;
+  }
+}
+
+.how-work__text-bottom {
+  font-family: "TT Firs Neue";
+  font-size: 17px;
+  line-height: 1.5;
+  color: #111a45;
+  margin-bottom: 10px;
+}
+
 .technology {
   padding-top: 60px;
   padding-bottom: 60px;
